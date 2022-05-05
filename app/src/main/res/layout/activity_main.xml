@@ -18,6 +18,7 @@
         android:id="@+id/right1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableRight="@drawable/redstar"
         android:text="Button"
         tools:layout_editor_absoluteX="110dp"
         tools:layout_editor_absoluteY="283dp" />
