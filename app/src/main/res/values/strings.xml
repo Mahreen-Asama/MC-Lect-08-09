@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">lect-08-LinearLayoutCheckbox</string>
+    <string name="right_hint">Right Drawable</string>
+    <string name="left_hint">Left Drawable</string>
 </resources>
