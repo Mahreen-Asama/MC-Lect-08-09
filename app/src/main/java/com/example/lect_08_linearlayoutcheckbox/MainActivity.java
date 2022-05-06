@@ -10,7 +10,7 @@ import android.widget.CheckBox;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     CheckBox done,pending,read;
-    Button b;
+    Button b,middle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         done.setOnClickListener(this);
         pending.setOnClickListener(this);
         read.setOnClickListener(this);
+
+        middle=findViewById(R.id.button6);
+        middle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.layout);
+            }
+        });
     }
 
     @Override
